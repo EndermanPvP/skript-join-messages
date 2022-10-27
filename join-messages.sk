@@ -1,0 +1,7 @@
+on join:
+    if player has played before:
+        set join message to "&a&l+&r &7%player%"
+    else:
+        set join message to "&a&l+&r &7%player% &b(NEW!)"
+on quit:
+    set quit message to "&4&l-&r &7%player%"
